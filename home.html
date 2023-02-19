@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Avakash</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        Avakash
+    </header><br><br>
+
+    <button onclick="darkMode()">Darkmode</button><br>
+	<button onclick="lightMode()">LightMode</button>
+	<script>
+	function darkMode() {
+		var element = document.body;
+		var content = document.getElementById("DarkModetext");
+		element.className = "dark-mode";
+	}
+	function lightMode() {
+		var element = document.body;
+		var content = document.getElementById("DarkModetext");
+		element.className = "light-mode";
+	}
+	</script><br><br>
+
+    <p>
+        <a href="avakashlearning.html"><button>Avakash Shiksha</button></a><br><br>
+        <a href="mentorship.html"><button>Marga Darshan</button></a><br><br>
+        <a href="jobs.html"><button>Udhyog</button></a>
+    </p><br><br>
+
+    <p>
+        <a href="scholarships.html"><button>Sashakt</button></a><br><br>
+        <a href="loans.html"><button>Dhan Shakthi</button></a>
+    </p>
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <title>Avakash</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        Avakash
+    </header><br><br>
+
+    <button onclick="darkMode()">Darkmode</button><br>
+	<button onclick="lightMode()">LightMode</button>
+	<script>
+	function darkMode() {
+		var element = document.body;
+		var content = document.getElementById("DarkModetext");
+		element.className = "dark-mode";
+	}
+	function lightMode() {
+		var element = document.body;
+		var content = document.getElementById("DarkModetext");
+		element.className = "light-mode";
+	}
+	</script><br><br>
+
+    <p>
+        Personal Login<br>
+        <div class="group">
+          <input required="" type="text" class="input">
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>Aadhar Number</label>
+        </div>
+        <div>
+          <input required="" type="password" class="input" placeholder="Password">
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>Password</label>
+        </div>
+        
+        Forgot Password?<br><br>
+        <button><a href="home.html">Submit</a> </button>
+    </p><br><br><br>
+
+    <p>
+        Company Login<br>
+    <div class="group">
+        <input required="" type="text" class="input">
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>GST Number</label>
+    </div>
+    <div>
+        <input required="" type="password" class="input" placeholder="Password">
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Password</label>
+    </div>
+        Forgot Password?<br><br>
+        <button><a href="company.html">Submit</a> </button>
+    </p><br><br><br>
+
+    
+
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Avakash</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        Avakash
+    </header><br><br>
+    <button onclick="darkMode()">Darkmode</button><br>
+	<button onclick="lightMode()">LightMode</button>
+	<script>
+	function darkMode() {
+		var element = document.body;
+		var content = document.getElementById("DarkModetext");
+		element.className = "dark-mode";
+	}
+	function lightMode() {
+		var element = document.body;
+		var content = document.getElementById("DarkModetext");
+		element.className = "light-mode";
+	}
+	</script><br><br>
+    
+
+    <p class="avakash1">
+        <a href="recruit.html"><button>Recruit</button></a><br><br>
+        <a href="skilltest.html"><button>Post a Skill Test</button></a><br><br>
+    </p><br><br>
+
+    
+
+</body>
+
+</html>

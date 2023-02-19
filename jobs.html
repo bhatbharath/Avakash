@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Avakash</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="main3.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        Avakash
+    </header><br><br>
+
+    <button onclick="darkMode()">Darkmode</button><br>
+    <button onclick="lightMode()">LightMode</button>
+    <script>
+        function darkMode() {
+            var element = document.body;
+            var content = document.getElementById("DarkModetext");
+            element.className = "dark-mode";
+        }
+        function lightMode() {
+            var element = document.body;
+            var content = document.getElementById("DarkModetext");
+            element.className = "light-mode";
+        }
+    </script><br><br>
+
+    <div class="card">
+        <div class="card-details">
+            <p class="text-title">Vinyaas</p>
+            <p class="text-body">Intern</p>
+        </div>
+        <button class="card-button">More info</button>
+    </div>
+
+    <div class="card">
+        <div class="card-details">
+            <p class="text-title">Printalytix</p>
+            <p class="text-body">Sales Executive</p>
+        </div>
+        <button class="card-button">More info</button>
+    </div>
+
+    <div class="card">
+        <div class="card-details">
+            <p class="text-title">Pragathi</p>
+            <p class="text-body">H R Manager</p>
+        </div>
+        <button class="card-button">More info</button>
+    </div>
+
+    <div class="card">
+        <div class="card-details">
+            <p class="text-title">Vidyalaya</p>
+            <p class="text-body">Teacher</p>
+        </div>
+        <button class="card-button">More info</button>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>

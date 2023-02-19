@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Avakash</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Poppins:wght@300&display=swap"
+            rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            Avakash
+        </header><br><br>
+
+        
+       
+	<button onclick="darkMode()">Darkmode</button><br>
+	<button onclick="lightMode()">LightMode</button><br><br><br><br><br><br><br><br>
+	<script>
+	function darkMode() {
+		var element = document.body;
+		var content = document.getElementById("DarkModetext");
+		element.className = "dark-mode";
+	}
+	function lightMode() {
+		var element = document.body;
+		var content = document.getElementById("DarkModetext");
+		element.className = "light-mode";
+	}
+	</script>
+ 
+
+<br><br><br>
+
+        
+        <div class="login-box">
+            <p>Company Login</p>
+            <form>
+                <div class="user-box">
+                    <input required="" name="" type="text">
+                    <label>GST Number</label>
+                </div>
+                <div class="user-box">
+                    <input required="" name="" type="password">
+                    <label>Password</label>
+                </div>
+                <a href="#">
+                    <a href="company.html">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Submit</a>
+                </a>
+            </form>
+            <p>Don't have an account? <a href="signup.html" class="a2">Sign up!</a></p>
+        </div>
+        
+
+        
+    </body>
+</html>
